@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Francisco Javier Owen Alonso | Team Consulting & Coaching</title>
+
+  <meta name="description" content="Bilingual team management consulting and English language coaching by Francisco Javier Owen Alonso, MBA. Expert in leadership, communication, and performance improvement.">
+
+  <meta name="keywords" content="consulting, coaching, management, English, bilingual, Czech Republic, leadership, communication, TEFL, business training">
+
+  <style>
+
+    body {font-family: 'Segoe UI', Helvetica, Arial, sans-serif; margin: 0; background: #f4f6f8; color: #333; line-height: 1.6;}
+
+    header {background: linear-gradient(135deg, #004aad, #007bff); color: white; text-align: center; padding: 2.5rem 1rem;}
+
+    nav {background: #003b8e; display: flex; justify-content: center; flex-wrap: wrap; gap: 1.5rem; padding: 1rem;}
+
+    nav a {color: white; text-decoration: none; font-weight: 600; letter-spacing: 0.5px; transition: 0.3s;}
+
+    nav a:hover {color: #ffdd57;}
+
+    section {max-width: 1000px; margin: 2rem auto; padding: 2rem; background: white; border-radius: 16px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);}
+
+    h1, h2, h3 {color: #004aad; margin-bottom: 0.75rem;}
+
+    .services {display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;}
+
+    .service-card {background: #f9fafc; padding: 1.8rem; border-radius: 12px; border: 1px solid #e0e0e0; text-align: center; transition: 0.3s;}
+
+    .service-card:hover {transform: translateY(-5px); box-shadow: 0 6px 12px rgba(0,0,0,0.1);}
+
+    .btn {background: #004aad; color: white; padding: 0.9rem 1.7rem; border-radius: 10px; text-decoration: none; font-weight: 600; transition: 0.3s; display: inline-block;}
+
+    .btn:hover {background: #007bff;}
+
+    .lang-toggle {position: fixed; top: 15px; right: 15px; background: #004aad; color: white; border: none; border-radius: 6px; padding: 0.6rem 1rem; cursor: pointer; font-weight: 500;}
+
+    form input, form textarea {width: 100%; padding: 0.7rem; margin: 0.5rem 0; border: 1px solid #ccc; border-radius: 8px; font-size: 1rem;}
+
+    form button {background: #004aad; color: white; border: none; padding: 0.9rem 1.5rem; border-radius: 8px; cursor: pointer; font-weight: 600;}
+
+    form button:hover {background: #007bff;}
+
+    footer {text-align: center; background: #003b8e; color: white; padding: 2rem 1rem; margin-top: 3rem; font-size: 0.95rem;}
+
+    table {width: 100%; border-collapse: collapse; text-align: center; margin-top: 1rem;}
+
+    th, td {padding: 10px; border: 1px solid #ddd;}
+
+    th {background-color: #f4f6f8; font-weight: bold;}
+
+    @media (max-width: 768px) {section {padding: 1.5rem;} nav {gap: 1rem;} .lang-toggle {padding: 0.4rem 0.8rem; font-size: 0.9rem;}}
+
+  </style>
+
+</head>
+
+<body>
+
+  <button class="lang-toggle" onclick="toggleLang()">Česky</button>
+
+  <header>
+
+    <h1>Francisco Javier Owen Alonso, MBA</h1>
+
+    <p>Team Management Consulting & English Language Coaching</p>
+
+  </header>
+
+
+
+  <nav>
+
+    <a href="#services">Services</a>
+
+    <a href="#booking">Book</a>
+
+    <a href="#rates">Rates</a>
+
+    <a href="#about">About</a>
+
+    <a href="#contact">Contact</a>
+
+  </nav>
+
+
+
+  <section id="services">
+
+    <h2>Our Services / Naše služby</h2>
+
+    <div class="services">
+
+      <div class="service-card">
+
+        <h3>💼 Consulting / Konzultace</h3>
+
+        <p>Strategic leadership and performance management consulting for bilingual teams.</p>
+
+        <a href="https://calendly.com/yourname/consulting" class="btn">Book Consulting Session</a>
+
+      </div>
+
+      <div class="service-card">
+
+        <h3>🎓 Coaching / Koučování</h3>
+
+        <p>Personal and group coaching sessions focused on communication and team development.</p>
+
+        <a href="https://calendly.com/yourname/coaching" class="btn">Book Coaching Session</a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <section id="booking">
+
+    <h2>Book a Session / Rezervace schůzky</h2>
+
+    <p>Book your consulting or coaching session directly using the links above. You can also reach out via the contact form for personalized offers.</p>
+
+  </section>
+
+
+
+  <section id="rates">
+
+    <h2>💰 Rates & Packages / Ceny a Balíčky</h2>
+
+    <table>
+
+      <tr><th>Service / Služba</th><th>Duration / Doba</th><th>Price / Cena</th></tr>
+
+      <tr><td>Standard Session</td><td>1 hour</td><td>500 Kč</td></tr>
+
+      <tr><td>Two 45-Minute Sessions</td><td>90 minutes total</td><td>800 Kč</td></tr>
+
+      <tr><td>TOEFL Preparation</td><td>90 minutes</td><td>900 Kč</td></tr>
+
+    </table>
+
+  </section>
+
+
+
+  <section id="about">
+
+    <h2>👤 About Me / O mně</h2>
+
+    <div style="text-align:center; margin-top:1.5rem;">
+
+      <img src="profile.jpg" alt="Profile Photo" style="width:150px; height:150px; border-radius:50%; object-fit:cover; margin-bottom:1rem;">
+
+      <p style="max-width:800px; margin:0 auto; font-size:1.05rem; line-height:1.7;">
+
+        Francisco Javier Owen Alonso is a bilingual consultant and certified English instructor based in Prague.<br><br>
+
+        He holds an MBA from the <strong>University of Economics, Prague (VŠE)</strong>, is <strong>TEFL Level 5 certified</strong>, and has over 10 years of experience in bilingual team management, business consulting, and language coaching.<br><br>
+
+        Originally from Spain, Francisco is a <strong>Spanish national</strong> and fluent in both <strong>English and Spanish</strong>, specializing in communication, TOEFL preparation, and professional development for international teams.
+
+      </p>
+
+    </div>
+
+  </section>
+
+
+
+  <section id="contact">
+
+    <h2>Contact / Kontakt</h2>
+
+    <form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
+
+      <label for="name">Name / Jméno:</label>
+
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message / Zpráva:</label>
+
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send / Odeslat</button>
+
+    </form>
+
+  </section>
+
+
+
+  <footer>
+
+    <p>© 2025 Francisco Javier Owen Alonso | IČO: 23739436 | Nejsem plátce DPH</p>
+
+  </footer>
+
+
+
+  <script>
+
+    function toggleLang() {
+
+      const current = document.querySelector('.lang-toggle').innerText;
+
+      document.querySelector('.lang-toggle').innerText = current === 'Česky' ? 'English' : 'Česky';
+
+      document.body.classList.toggle('cz');
+
+    }
+
+  </script>
+
+</body>
+
+</html>
